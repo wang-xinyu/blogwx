@@ -1,0 +1,4 @@
+output/
+pelican-themes/
+.DS_Store
+*.pyc
