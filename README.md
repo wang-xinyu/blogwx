@@ -5,12 +5,12 @@
 ## Install
 
 ```
-git clone https://github.com/wang-xinyu/wang-xinyu.github.io.git
-mv wang-xinyu.github.io output
-mkdir pelican-themes
-cd pelican-themes
-git clone https://github.com/wang-xinyu/nest.git
-
+sudo pip install pelican markdown
+git clone https://github.com/wang-xinyu/wang-xinyu.github.io.git output
+git clone https://github.com/getpelican/pelican-themes
+cd pelican-themes/nest
+git clone https://github.com/wang-xinyu/nest.git .
+sudo pelican-themes -U nest
 ```
 
 ## 更新文章
